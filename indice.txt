@@ -7,12 +7,23 @@ Linus desarrolló Git después de haber quedado insatisfecho con un cambio de li
 Como en aquella época no existía nada similar, Torvalds creó su propia versión de un sistema para controlar los cambios del proyecto Linux. Y fue aquí donde surgió Git.
 Lo que hace Git es registrar los cambios que ocurren en el código fuente de un proyecto.
 
-Capitulo 2:Flujo de trabajo básico
+Capitulo 2:Flujo de trabajo básico.
 Flujos de trabajo en GIT Flujo básico Se usa para desarrollos unipersonales o para desarrollos en los que se puede aprobar la versión del software de forma local
 y luego subirla a la rama remota Máster. 
 En este flujo, normalmente una sola persona hace cambios sobre el código y realiza pruebas localmente.
 
-Capítulo 3: Repositorios remotos
+Capitulo 3: Gestion de ramas.
+as ramas aislan tu trabajo de desarrollo de otras ramas en el repositorio.
+ Por ejemplo, puedes utilizar una rama para desarrollar una nueva característica o para corregir un error.
+Siempre puedes crear una rama a partir de otra rama existente. Habitualmente,
+ puedes crear una rama desde la rama predeterminada de tu repositorio. 
+Podrás entonces trabajar en esta rama nueva aislado de los cambios que otras personas hacen al repositorio.
+Los administradores de un repositorio pueden activar las protecciones en una rama. 
+Si estás trabajando en una rama que está protegida, no podrás eliminar ni hacer un empuje forzado a la rama. 
+Los administradores de repositorio pueden habilitar otras configuraciones de la rama protegida para requerir 
+ciertos flujos de trabajo antes de que la rama se pueda fusionar.
+
+Capítulo 4: Repositorios remotos.
 Los repositorios remotos son versiones de tu proyecto que están hospedadas en Internet o en cualquier otra red. 
 Puedes tener varios de ellos, y en cada uno tendrás generalmente permisos de solo lectura o de lectura y escritura. 
 Colaborar con otras personas implica gestionar estos repositorios remotos enviando y trayendo datos de ellos cada vez que necesites compartir tu trabajo. 
