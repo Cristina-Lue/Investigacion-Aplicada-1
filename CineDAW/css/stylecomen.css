@@ -73,3 +73,47 @@ button:hover {
 .comment p {
     margin: 0;
 }
+/* Estilos específicos para tablets */
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    textarea {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    #commentSection h2 {
+        font-size: 20px;
+    }
+}
+
+/* Estilos específicos para teléfonos móviles */
+@media screen and (max-width: 600px) {
+    form {
+        padding: 15px;
+        margin: 10px;
+    }
+
+    textarea {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    #commentSection h2 {
+        font-size: 18px;
+    }
+}
