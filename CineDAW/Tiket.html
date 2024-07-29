@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Venta de Tickets de Cine</title>
+    <link rel="stylesheet" href="css/ticket.css">
+</head>
+<body>
+    <h1>Venta de Tickets de Cine</h1>
+    <form id="ticketForm">
+        <div class="ticket-section">
+            <div class="ticket-child">
+                <h2>Tickets de Niños</h2>
+                <label for="childTicketQuantity">Cantidad de Tickets:</label>
+                <input type="number" id="childTicketQuantity" min="1" required><br><br>
+
+                <label for="childTicketPrice">Precio por Ticket:</label>
+                <select id="childTicketPrice" required>
+                    <option value="2">2</option>
+                    <option value="2.50">2.50</option>
+                    <option value="4.00">4.00</option>
+                    <option value="5">5</option>
+                </select><br><br>
+            </div>
+            <div class="ticket-adult">
+                <h2>Tickets de Adultos</h2>
+                <label for="adultTicketQuantity">Cantidad de Tickets:</label>
+                <input type="number" id="adultTicketQuantity" min="1" required><br><br>
+
+                <label for="adultTicketPrice">Precio por Ticket:</label>
+                <select id="adultTicketPrice" required>
+                    <option value="4.50">4.50</option>
+                    <option value="6.00">6.00</option>
+                    <option value="7.00">7.00</option>
+                </select><br><br>
+            </div>
+        </div>
+        <button type="submit">Generar Factura</button>
+    </form>
+
+    <div id="invoice" style="display:none;">
+        <h2>Factura</h2>
+        <p id="invoiceDetails" class="invoice-text"></p>
+    </div>
+
+    <footer>
+        <button id="botonvolver">Volver a la página principal</button>
+    </footer>
+    <script src="js/ticket.js"></script>
+    <script src="js/boton.js"></script>
+</body>
+</html>

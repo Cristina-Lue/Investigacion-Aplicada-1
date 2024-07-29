@@ -1,0 +1,114 @@
+/*Style de Estrenos*/
+
+body {
+  font-family: "Times New Roman";
+  background-image: url(https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2017/03/Captura-de-pantalla-2017-03-30-a-las-11.59.05.png?resize=1200%2C600&quality=50&strip=all&ssl=1);
+  background-size: 100%;
+  margin: 20px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+
+h1,
+h2 {
+  font-size: 2.5em;
+  text-shadow: 0 0 rgb(2, 59, 97), 0 -5px 4px rgb(130, 51, 167),
+    2px -10px 5px rgba(85, 255, 51, 0.904), -2px -15px 11px rgb(255, 223, 116),
+    2px -18px 18px rgb(252, 127, 69);
+  color: white;
+  text-align: center;
+}
+
+a {
+  text-align: justify;
+  font-size: 1.5em;
+  color: aliceblue;
+  font-family: "Franklin Gothic Medium";
+}
+
+.img1 {
+  text-align: justify;
+  padding-left: 50px;
+  margin-left: 50px;
+  color: rgb(247, 221, 221);
+  font-family: Helvetica;
+  font-size: 1em;
+}
+
+.jus {
+  width: 250px;
+  height: 250px;
+}
+
+.img2 {
+  text-align: justify;
+  padding-left: 50px;
+  margin-left: 50px;
+  color: rgb(247, 221, 221);
+  font-family: Helvetica;
+  font-size: 1em;
+}
+
+.barbie {
+  width: 250px;
+  height: 250px;
+}
+
+.img3 {
+  text-align: justify;
+  padding-left: 50px;
+  margin-left: 50px;
+  color: rgb(247, 221, 221);
+  font-family: Helvetica;
+  font-size: 1em;
+}
+
+.fnaf {
+  width: 250px;
+  height: 250px;
+}
+
+footer {
+  text-align: center;
+  font-size: 2em;
+  color: white;
+}
+
+/*style de calificaciones*/
+
+.cal-0 {
+  background-image: url(https://es.123rf.com/photo_25280448_dise%C3%B1o-de-vector-de-cartelera-de-cine-en-blanco.html);
+  background-size: 100%;
+  margin: 80px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  color: black;
+}
+
+/*estilo de contactos*/
+.inf-0 {
+  background-color: rgb(179, 240, 240);
+  color: black;
+}
+
+/*Estilo del boton*/
+#botonvolver{
+  background-color: #333;
+  color: #FFF;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+#botonvolver{
+  background-color: #575757;
+}

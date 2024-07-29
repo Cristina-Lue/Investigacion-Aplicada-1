@@ -1,0 +1,207 @@
+*{
+
+    border-radius: 8px;
+}
+/*Estilo de Looby*/
+body{
+    background-image: url(img/fondo3.jpeg);
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    text-align: justify;
+    font-family: 'Arial Narrow';
+}
+
+
+h3{
+    text-align: center;
+    font-size: 2em;
+    font-family:'centuy';
+    color:yellow;
+}
+h1{
+    text-align: center;
+    text-shadow:  0 0 rgb(250, 249, 250), 0 -5px 4px rgb(130, 51, 167), 2px
+    -10px 5px rgba(252, 255, 51, 0.904), -2px -15px 11px rgb(35, 178, 245), 2px -18px
+    18px rgb(204, 212, 83);
+    color: rgb(255, 147, 147);
+    font-family:'San serif';
+    margin-bottom: 20px;
+    padding-left: 20px;
+    font-size: 2.5em;
+    
+}
+a{
+    text-align: justify;
+    font-family: 'centuy';
+    margin:30px;
+    
+}
+img{
+    width: 300px;
+    height: 300px;
+
+}
+
+
+article{
+    background-color: #0090ff;
+    display: inline-block;
+    height: 200px;
+    vertical-align: top;
+    width: 32%;
+}
+
+section .list{
+    color: blanchedalmond;
+    font-size: 1em;
+    padding:30px;
+    font-family:'Arial Narrow';
+    margin: 20px;
+
+}
+
+
+
+p{
+    text-align: center;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    color: white;
+    font-family:'Arial Narrow';
+    font-size: 1.3em;
+    
+}
+
+section{
+    
+    padding-left: 50px;
+    margin-left: 50px;
+
+    color: rgb(184, 233, 248);
+    font-size: 1em   
+}
+footer{
+    text-align:center;
+    padding-left: 50px;
+    margin-left: 50px;
+    color: rgb(184, 233, 248);
+    font-family:Helvetica;
+    font-size: 1.5em; 
+    margin-bottom: 250px;
+    padding-bottom: 150px;
+    position: relative;
+}
+
+
+.uno{
+    text-align:center;
+    margin: 35px;
+    padding-left: 50px;
+    margin-left: 50px;
+    font-family:Helvetica;
+    font-size: 2em; 
+    color: rgb(253, 204, 204);
+
+}
+
+.logo{
+    background-size: 300px;
+    margin:40px;
+    padding: 40px;
+    display: flex;
+}
+
+/*stylee de la pagina creadores*/
+
+.Crear{
+    background-image: url(img/fondo2.jpeg);
+  text-align:center;
+    margin: 35px;
+    padding-left: 50px;
+    margin-left: 50px;
+    color: black;
+    font-family: 'Arial Narrow';
+    font-size: 1em; 
+    color: black;  
+}
+
+/*estrenos*/
+
+.pelicula{
+    text-align: justify;
+    padding-left: 50px;
+    margin-left: 50px;
+    color:rgb(247, 221, 221);
+    font-family:'Arial Narrow';
+    font-size: 1em;
+}
+.im1{
+    width: 250px;
+    height: 250px;
+}
+
+
+footer .final{
+    color: rgb(10, 9, 9);
+    font-family:'Arial Narrow';
+    font-size: 1.8em;
+    text-align: center;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+    position: relative;
+    top: 200px;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.carousel .slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.carousel .slick-slide img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover; /* Ajusta la imagen para cubrir el área del contenedor */
+}
+
+.list {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.list nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.list nav ul li {
+    padding: 10px 20px;
+}
+
+.list nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.list nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
