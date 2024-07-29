@@ -43,3 +43,44 @@ footer {
   font-size: 10px;
   cursor: pointer;
 }
+
+/* Estilos específicos para tabletas */
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  section {
+      padding: 15px;
+  }
+
+  footer button {
+      font-size: 14px;
+      padding: 8px 16px;
+  }
+
+  h1 {
+      font-size: 24px;
+  }
+
+  section p {
+      font-size: 16px;
+  }
+}
+
+/* Estilos específicos para teléfonos móviles */
+@media screen and (max-width: 600px) {
+  section {
+      padding: 10px;
+      margin: 10px;
+  }
+
+  footer button {
+      font-size: 12px;
+      padding: 8px 12px;
+  }
+
+  h1 {
+      font-size: 20px;
+  }
+
+  section p {
+      font-size: 14px;
+  }
+}
