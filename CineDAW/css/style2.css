@@ -112,3 +112,56 @@ footer {
 #botonvolver{
   background-color: #575757;
 }
+
+/* Estilos específicos para tabletas */
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .cartelera {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  .cartelera li {
+      flex: 1 1 45%;
+      margin: 10px;
+      padding: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  header h1, h2 {
+      font-size: 24px;
+  }
+
+  footer button {
+      font-size: 14px;
+  }
+}
+
+/* Estilos específicos para teléfonos móviles */
+@media screen and (max-width: 600px) {
+  .cartelera {
+      display: block;
+  }
+
+  .cartelera li {
+      margin: 5px;
+      padding: 5px;
+      font-size: 14px;
+      border: none;
+      box-shadow: none;
+  }
+
+  header h1, h2 {
+      font-size: 18px;
+  }
+
+  footer button {
+      font-size: 12px;
+      padding: 8px 16px;
+  }
+
+  .cartelera img {
+      width: 100%;
+      height: auto;
+  }
+}
